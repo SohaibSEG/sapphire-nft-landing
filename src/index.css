@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Poppins:wght@300;500;700&family=Space+Grotesk:wght@300;500&display=swap');
 
+:root{
+    --bg-dark : #1C233D;
+    --light-gray : #E5E5E5;
+    --dark-blue : #1E2B4B;
+    --dark-gray : #545C71;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-dark);
+    font-weight: 300;
+}
+
+.clr-white{
+    color: white;
+}
+
+.clr-lightgray{
+    color: var(--light-gray);
+}
+.clickable{
+    cursor: pointer;
+}
+.fnt-dmono{
+    font-family: 'DM Mono';
+
+}
+
+.fnt-popins{
+    font-family: 'Poppins';
+}
+.fnt-spcgrot{
+    font-family: 'Space Grotesk';
+}

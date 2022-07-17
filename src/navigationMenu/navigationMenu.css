@@ -1,0 +1,31 @@
+.nav-menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.125rem 4rem;
+    flex-wrap: wrap;
+}
+.navigation{
+    flex: 1;
+
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    font-size: 0.875rem;
+    gap: 2rem;
+
+}
+.nav-active{
+    font-weight: 500;
+}
+.logo{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.actions{
+    display: flex;
+    gap: 1rem;
+}
