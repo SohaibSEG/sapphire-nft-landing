@@ -1,0 +1,11 @@
+.data-title{
+    color: var(--dark-gray);
+    font-weight: 500;
+    font-size: .875rem;
+}
+.data-value{
+    color: var(--light-gray);
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}

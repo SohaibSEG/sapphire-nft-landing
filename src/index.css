@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&family=Poppins:wght@300;500;700&family=Space+Grotesk:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Poppins:wght@300;500;700&family=Space+Grotesk:wght@300;400;500&display=swap');
 
 :root{
     --bg-dark : #1C233D;
     --light-gray : #E5E5E5;
     --dark-blue : #1E2B4B;
     --dark-gray : #545C71;
+    --card-bg : #30384D;
+    --blue-red : #3D2A3D;
 }
 
 *{
@@ -12,9 +14,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
 body{
     background-color: var(--bg-dark);
     font-weight: 300;
+
 }
 
 .clr-white{
@@ -32,7 +38,8 @@ body{
 
 }
 
-.fnt-popins{
+
+.fnt-poppins{
     font-family: 'Poppins';
 }
 .fnt-spcgrot{

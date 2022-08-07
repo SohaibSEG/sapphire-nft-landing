@@ -4,4 +4,14 @@
     border-radius: 5px;
     padding: 0.625rem 2rem;
     font-size: 0.825rem;
+    width: fit-content;
+}
+
+.bu-secondary{
+    font-weight: 500;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+    padding: 0.625rem 2rem;
+    font-size: 0.825rem;
+    width: fit-content;
 }

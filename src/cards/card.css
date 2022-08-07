@@ -1,0 +1,54 @@
+.card-nft{
+    display: grid;
+    grid-template-areas: 
+        "main-image main-image"
+        "nft-name nft-thumbnails"
+        "nft-data nft-data"
+    ;
+    background-color: var(--card-bg);
+    grid-template-rows: repeat(3, fit-content);
+    border-radius: 10px;
+    padding: 1.5rem;
+    gap: .5rem;
+    max-width: 400px;
+    width: 100%;
+}
+.card-nft .img-main{
+    grid-area: main-image;
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 1/1.03;
+    object-fit: cover;
+}
+.card-nft .nft-name{
+    font-weight: 500;
+    color: white;
+    
+}
+
+.card-nft .nft{
+    grid-area: nft-name;
+}
+
+.card-nft .nft-creator{
+    font-size: .825rem;
+}
+
+.card-nft .nft-thumbnails{
+    justify-self: flex-end; 
+
+    display: flex;
+    justify-content: flex-end;
+}
+.card-nft .nft-thumbnail{
+    margin-left: -.75rem;   
+    height: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.nft-data{
+    display: flex;
+    justify-content: space-between;
+    grid-area: nft-data;
+}
