@@ -3,6 +3,7 @@ import NavigationMenu from './navigationMenu/navigationMenu';
 import './App.css';
 import Hero from './hero/Hero';
 import HotDrops from './hotDrops/HotDrops';
+import CallToAction from './callToAction/CallToAction';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationMenu></NavigationMenu>
       <Hero></Hero>
       <HotDrops/>
+      <CallToAction/>
     </div>
   );
 }

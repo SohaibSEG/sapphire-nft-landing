@@ -1,3 +1,4 @@
+
 .bu-primary{
     font-weight: 500;
     background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
@@ -5,6 +6,8 @@
     padding: 0.625rem 2rem;
     font-size: 0.825rem;
     width: fit-content;
+    text-align: center;
+    min-width: 142px;
 }
 
 .bu-secondary{
@@ -13,5 +16,17 @@
     border-radius: 5px;
     padding: 0.625rem 2rem;
     font-size: 0.825rem;
+    text-align: center;
+    min-width: 142px;
+    width: fit-content;
+}
+.bu-outline{
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 0.625rem 2rem;
+    font-size: 0.825rem;
+    text-align: center;
+    min-width: 142px;
     width: fit-content;
 }
