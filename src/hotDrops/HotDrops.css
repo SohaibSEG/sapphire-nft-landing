@@ -1,0 +1,46 @@
+.hot-drops{
+    margin-top: 2rem ;
+    padding: 2rem 4rem;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.tags{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tag{
+    font-size: .75rem;
+    background-color: var(--card-bg);
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+}
+.tg-active{
+    background-color: var(--blue-red);
+}
+
+.items-container{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    gap: 3rem 2rem;
+}
+
+.items-container .card-nft .data-value , .items-container .card-nft .data-value  {
+    font-size: .75rem;
+    margin-top: .25rem;
+}
+
+.hot-drops .bu-secondary{
+    margin: auto;
+    margin-top: 4rem;
+}
