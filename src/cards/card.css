@@ -52,3 +52,41 @@
     justify-content: space-between;
     grid-area: nft-data;
 }
+
+
+
+/*****************************************************/
+
+.nft-creator{
+    font-family: "DM Mono";
+    font-weight: 500;
+    color: #fff;
+    line-height: 2;
+    font-size: .825rem;
+    display: flex;
+    align-items: center;
+    padding: .75rem;
+    gap: .75rem;
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    width: 100%;
+}
+
+.nft-creator__avatar{
+    object-fit: cover;
+    border-radius: 8px;
+    grid-area: avatar;
+    max-height: 4rem;
+}
+.nft-creator__name{
+    grid-area: name;
+}
+.nft-creator__earnings{
+    grid-area: earnings;
+}
+.nft-creator .icon{
+    grid-area: icon;
+    height: 2rem;
+    width: 2rem;
+    margin-left: auto;
+}
