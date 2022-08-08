@@ -1,6 +1,9 @@
 import "./button.css";
 
-function BuPrimary(props){
+export default function BuPrimary(props){
     return <div className="bu-primary clickable">{props.text}</div>;
 }
-export default BuPrimary;
+export  function BuPrimaryOutline(props){
+    return <div className="bu-primary bu-outline clickable">{props.text}</div>;
+
+}

@@ -40,3 +40,16 @@
     justify-content: center;
     gap: 1rem;
 }
+
+
+.cta-join{
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+    gap: 2rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
