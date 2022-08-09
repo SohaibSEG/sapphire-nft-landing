@@ -48,3 +48,14 @@
     color: white;
     font-size: 2rem;
 }
+
+.hero-partners{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+.hero-partners img{
+    width: 10rem;
+    height: 100%;
+}
