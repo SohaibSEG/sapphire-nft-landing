@@ -4,16 +4,18 @@ import Hero from "./hero/Hero";
 import HotDrops from "./hotDrops/HotDrops";
 import CreateAndSell, { JoinCommunity } from "./callToAction/CallToAction";
 import TopCreators from "./topCreators/TopCreators";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
     <div className="App fnt-spcgrot clr-lightgray">
-      <NavigationMenu></NavigationMenu>
-      <Hero></Hero>
+      <NavigationMenu />
+      <Hero />
       <HotDrops />
       <CreateAndSell />
       <TopCreators />
-      <JoinCommunity></JoinCommunity>
+      <JoinCommunity />
+      <Footer />
     </div>
   );
 }
