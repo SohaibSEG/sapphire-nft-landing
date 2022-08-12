@@ -1,6 +1,4 @@
-import BuOutline from "../buttons/buOutline";
-import BuPrimary from "../buttons/buPrimary";
-import {BuPrimaryOutline} from "../buttons/buPrimary";
+import BuPrimary , {BuOutline,BuPrimaryOutline} from "../buttons/Buttons";
 import "./callToAction.css";
 
 function CreateAndSell() {

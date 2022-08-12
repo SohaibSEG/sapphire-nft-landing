@@ -1,4 +1,4 @@
-import "./nftDatapiece.css";
+import "./Datapiece.css";
 
 function NFTdatapiece(props){
     return (

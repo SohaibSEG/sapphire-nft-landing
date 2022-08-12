@@ -1,5 +1,5 @@
 import './card.css'
-import NFTdatapiece from './datapiece/NFTdatapiece';
+import NFTdatapiece from './datapiece/Datapiece';
 
 function NFTitem(){
     return (

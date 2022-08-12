@@ -1,4 +1,4 @@
-import BuSecondary from "../buttons/buSecondary";
+import {BuSecondary} from "../buttons/Buttons";
 import NFTitem from "../cards/NFTitem";
 import "./HotDrops.css"
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BuPrimary from "../buttons/buPrimary";
+import BuPrimary from "../buttons/Buttons";
 import "./navigationMenu.css";
 import SearchBar from "./searchBar/searchBar";
 function NavigationMenu() {

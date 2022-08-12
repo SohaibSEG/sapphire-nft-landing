@@ -1,4 +1,4 @@
-import BuPrimary from "../buttons/buPrimary";
+import BuPrimary from "../buttons/Buttons";
 import HeroCard from "../cards/HeroCard";
 import "./Hero.css";
 import StatPiece from "./StatePiece";

@@ -1,5 +1,5 @@
-import BuOutline from "../buttons/buOutline";
-import BuSecondary from "../buttons/buSecondary";
+import BuOutline from "../buttons/Buttons";
+
 import NFTCreator from "../cards/NFTCreator";
 import "./topCreators.css"
 
