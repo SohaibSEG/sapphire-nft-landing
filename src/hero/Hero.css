@@ -1,6 +1,9 @@
+.hero{
+    margin: auto;
+}
 .hero-section{
     display: grid;
-    padding: 2rem 4rem;
+    padding: 2rem ;
     grid-template-areas: 
         "header hero-card"
         "details hero-card"
@@ -8,14 +11,41 @@
         "stats hero-card"
 
     ;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4,fit-content);
     align-items: center;
     justify-items: flex-start;
     column-gap: 3rem;
     row-gap: 1rem;
 }
-
+@media screen and (max-width:769px) {
+    .hero-section{
+        grid-template-areas: 
+            "hero-card"
+            "header"
+            "details"
+            "action"
+            "stats";
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            justify-items: center;
+            text-align: center;
+            row-gap: 2rem;
+            padding: 2rem;
+        }
+        #line-break{
+            display: none;
+        }
+        .hero-section h1{
+            font-size: 3rem;
+        }
+        .hero-section .hero-text{
+            font-size: 3rem;
+        }
+        .card-hero{
+            margin: auto;
+        }
+    }
 .card-hero{
     grid-area: hero-card;
 }
@@ -25,6 +55,11 @@
     font-size: 3rem;
     line-height: 1.5;
     margin-top: 1rem;
+}
+@media screen and (max-width:900px) {
+    .hero-section h1{
+        font-size: 2.5rem;
+    }
 }
 .hero-section .hero-txt{
     grid-area: details;
@@ -51,11 +86,14 @@
 
 .hero-partners{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
     align-items: center;
 }
 .hero-partners img{
-    width: 10rem;
-    height: 100%;
+    width: 6rem;}
+
+.card-hero{
+    margin-left: auto;
 }

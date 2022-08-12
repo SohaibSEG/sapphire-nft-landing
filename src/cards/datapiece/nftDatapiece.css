@@ -9,3 +9,15 @@
     font-size: 1rem;
     font-weight: 500;
 }
+
+@media screen and (max-width:900px) {
+    .data-title{
+        font-size: .75rem;
+    }
+    .data-value{
+        color: var(--light-gray);
+        margin-top: .5rem;
+        font-size: .825rem;
+        font-weight: 500;
+    }
+}

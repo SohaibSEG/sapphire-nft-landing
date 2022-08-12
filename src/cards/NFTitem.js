@@ -7,7 +7,7 @@ function NFTitem(){
             <img src='./images/nft/bored_ape.jpg' alt='nft' className='img-main'/>
             <div className='nft'>
             <p className='nft-name'>Bored Apes</p>
-            <p className='nft-creator'>Created by <b>Rick</b></p>
+            <p className='nft-creator'>Created by <b>SohaibSEG</b></p>
             </div>
             <ul className='nft-thumbnails'>
                 <li>

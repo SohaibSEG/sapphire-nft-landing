@@ -5,13 +5,13 @@ import StatPiece from "./StatePiece";
 
 function Hero(props) {
   return (
-    <div>
+    <div className="hero">
       <main className="hero-section">
         <HeroCard></HeroCard>
         <h1>
           Discover, Sell
-          <br /> & Collect Rare
-          <br /> NFTs
+          <span id="line-break"><br/></span> & Collect Rare
+          <span id="line-break"><br/></span>NFTs
         </h1>
         <p className="fnt-poppins hero-txt">
           Digital marketplace for crypto collections and non-fungible tokens

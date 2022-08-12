@@ -7,11 +7,17 @@
 .cta-cards__container{
     margin: 4rem 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-wrap: nowrap;
     gap: 1rem;
 }
 
+@media screen and (max-width:769px) {
+    .cta-cards__container{
+        flex-direction: column;
+    }
+}
 .cta-card{
     flex: 1;
     background-color: var(--card-bg);
@@ -46,10 +52,15 @@
     background-color: var(--dark-blue);
     display: flex;
     flex-direction: column;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     margin-top: 4rem;
     gap: 2rem;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
 }
+
+.cta-create{
+    padding: 2rem;
+}
+
