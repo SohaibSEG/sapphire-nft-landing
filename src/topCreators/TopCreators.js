@@ -1,4 +1,4 @@
-import BuOutline from "../buttons/Buttons";
+import {BuOutline} from "../buttons/Buttons";
 
 import NFTCreator from "../cards/NFTCreator";
 import "./topCreators.css"
