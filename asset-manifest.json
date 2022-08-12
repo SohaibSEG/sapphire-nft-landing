@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sapphire-nft-landing/static/css/main.ab8effa2.css",
-    "main.js": "/sapphire-nft-landing/static/js/main.a77c1756.js",
+    "main.js": "/sapphire-nft-landing/static/js/main.7f7af419.js",
     "index.html": "/sapphire-nft-landing/index.html",
     "main.ab8effa2.css.map": "/sapphire-nft-landing/static/css/main.ab8effa2.css.map",
-    "main.a77c1756.js.map": "/sapphire-nft-landing/static/js/main.a77c1756.js.map"
+    "main.7f7af419.js.map": "/sapphire-nft-landing/static/js/main.7f7af419.js.map"
   },
   "entrypoints": [
     "static/css/main.ab8effa2.css",
-    "static/js/main.a77c1756.js"
+    "static/js/main.7f7af419.js"
   ]
 }
